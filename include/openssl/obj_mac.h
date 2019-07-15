@@ -5269,3 +5269,13 @@
 #define LN_dilithium4           "dilithium4"
 #define NID_dilithium4          1209
 #define OBJ_dilithium4          1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,4L
+
+#define SN_mqdss_31_48          "mqdss_31_48"
+#define LN_mqdss_31_48          "mqdss_31_48"
+#define NID_mqdss_31_48         1210
+#define OBJ_mqdss_31_48         1L,3L,6L,1L,4L,1L,772L,1L,2L,8L,1L
+
+#define SN_mqdss_31_64          "mqdss_31_64"
+#define LN_mqdss_31_64          "mqdss_31_64"
+#define NID_mqdss_31_64         1211
+#define OBJ_mqdss_31_64         1L,3L,6L,1L,4L,1L,772L,1L,2L,8L,2L

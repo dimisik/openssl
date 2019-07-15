@@ -37,6 +37,8 @@ static const SSL_CERT_LOOKUP ssl_cert_info [] = {
     {EVP_PKEY_DILITHIUM2, SSL_aDILITHIUM2}, /* SSL_PKEY_DILITHIUM2 */    
     {EVP_PKEY_DILITHIUM3, SSL_aDILITHIUM3}, /* SSL_PKEY_DILITHIUM3 */ 
     {EVP_PKEY_DILITHIUM4, SSL_aDILITHIUM4}, /* SSL_PKEY_DILITHIUM4 */
+    {EVP_PKEY_MQDSS_31_48, SSL_aMQDSS_31_48}, /* SSL_PKEY_MQDSS_31_48 */
+    {EVP_PKEY_MQDSS_31_64, SSL_aMQDSS_31_64}, /* SSL_PKEY_MQDSS_31_64 */
     /* ADD_MORE_OQS_SIG_HERE, with array index matching the SSL_PKEY_* values from ssl_locl.h */
 #endif
 };
