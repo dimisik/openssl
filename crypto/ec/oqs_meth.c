@@ -93,11 +93,11 @@ static char* get_oqs_alg_name(int openssl_nid)
     case NID_p384_qteslaIIIspeed:
       return OQS_SIG_alg_qTESLA_III_speed;
     case NID_dilithium2:
-      return OQS_SIG_alg_dilithium_2;
+      return OQS_SIG_alg_SPHINCS_sha256_128s_simple;
     case NID_dilithium3:
-      return OQS_SIG_alg_dilithium_3;
+      return OQS_SIG_alg_SPHINCS_sha256_128s_simple;
     case NID_dilithium4:
-      return OQS_SIG_alg_dilithium_4;
+      return OQS_SIG_alg_SPHINCS_sha256_128f_simple;
     /* ADD_MORE_OQS_SIG_HERE */
     default:
       return NULL;
