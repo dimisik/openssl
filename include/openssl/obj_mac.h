@@ -5273,9 +5273,9 @@
 #define SN_mqdss_31_48          "mqdss_31_48"
 #define LN_mqdss_31_48          "mqdss_31_48"
 #define NID_mqdss_31_48         1210
-#define OBJ_mqdss_31_48         1L,3L,6L,1L,4L,1L,772L,1L,2L,8L,1L
+#define OBJ_mqdss_31_48         1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,5L
 
 #define SN_mqdss_31_64          "mqdss_31_64"
 #define LN_mqdss_31_64          "mqdss_31_64"
 #define NID_mqdss_31_64         1211
-#define OBJ_mqdss_31_64         1L,3L,6L,1L,4L,1L,772L,1L,2L,8L,2L
+#define OBJ_mqdss_31_64         1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,6L
