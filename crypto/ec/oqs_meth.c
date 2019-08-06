@@ -95,7 +95,7 @@ static char* get_oqs_alg_name(int openssl_nid)
     case NID_dilithium2:
       return OQS_SIG_alg_dilithium_2;
     case NID_dilithium3:
-      return OQS_SIG_alg_dilithium_3;
+      return OQS_SIG_alg_rainbow_Ia_cyclic;
     case NID_dilithium4:
       return OQS_SIG_alg_dilithium_4;
     case NID_falcon512:
